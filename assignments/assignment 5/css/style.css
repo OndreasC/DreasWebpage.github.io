@@ -1,0 +1,226 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+	
+}
+
+
+#container {
+	
+}
+
+
+div#Hollow{
+background: yellow;
+transition: 2s;
+border:2px solid orange;
+border-radius: 15px 50px;
+width:100px;
+height:50px;
+}
+
+div#Hollow:hover{
+background:green;
+width:400px;
+}
+
+
+div#Ressurection{
+background:Magenta;
+width:50px;
+height:50px;
+transition:2s,height 2s, transform 2s;
+border-radius: 15px;
+padding:20px;
+
+}
+
+div#Ressurection:hover{
+width:300px;
+height:300px;
+transform: rotate(180deg);
+background-color:teal;
+}
+
+div#Ice{
+background:green;
+width: 200px;
+ height: 100px; 
+ border-radius: 100px / 50px;
+ border:2px solid black;
+ transition: 3s;
+
+ 
+	
+	
+	
+}
+  
+ div#Ice:hover{
+width:300px;
+background: blue;
+ transform: scale(180deg);
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+div#Joker{
+width:0;
+height:0;
+border-left:50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom:100px solid red;
+padding:15px 30px;
+color:blue;
+transition: width 2s;
+transition-timing-function: linear;
+border: solid brown 2px;
+	
+	
+}
+
+div#Joker:hover{
+width:300px;
+	
+}
+
+
+
+div#Casper{
+width:200px;
+height:100px;
+background:pink;
+border-radius:15px 50px 30px 5px;
+transition-property:width,height;
+transition-duration:2s;
+border: 2px solid yellow;
+}
+
+
+
+div#Casper:hover{
+	width:300px;
+	height:300px;
+transform:matrix(0.586,0.8,-0.8,0.586,0,0)
+}
+
+div#Skate{
+width:100px;
+height:50px;
+transform: skew(20deg);
+background:#555;
+border:2px solid blue;
+	transition: all 2s;
+
+}
+
+
+div#Skate:hover{
+transform: translate(600px,300px);	
+	background:green;
+}
+
+
+div#Shenron{
+height:300px;
+width:300px;
+background-color: orange;
+border:2px solid green;
+transition: all 4s
+
+	
+}
+
+div#Shenron:hover{	
+transform:rotateY(180deg)
+width: 
+}
+
+
+
+div#Blitz{
+width:200px;
+height:100px;
+background:purple;
+border-radius:100px/50px;	
+border:2px solid orange;
+transition: width 2s,height 4s; 
+
+}
+
+div#Blitz:hover{
+	width:300px;
+	height:300px;
+	background: black;
+}
+
+
+
+
+div#Jinx{
+background: Gold;
+border:2px solid silver;
+border-radius: 15px;
+width:100px;
+height:50px;	
+transition:3s,
+	
+	
+	
+	
+}
+
+div#Jinx:hover{
+transform: rotate(180deg);	
+background: limegreen;
+width:300px;
+height:240px;
+	
+}
+
+
+
+div#Skyrim{
+width:100px;
+height:30px;
+transform: skew(20deg);
+background: blue;	
+border:2px solid green;
+transition: width 2s, height 4s;
+	
+	
+	
+}
+
+
+
+
+div#Skyrim:hover{
+	
+	width:300px;
+	height:300px;
+	
+	
+	
+	
+	
+	
+}
